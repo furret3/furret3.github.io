@@ -1,0 +1,16 @@
+[
+    {
+      "title": "Memo App",
+      "project_name": "Memo App",
+      "description": "Note taking, task scheduling app.",
+      "date": "2024-04-29",
+      "technologies": ["Android", "Kotlin"]
+    },
+    {
+      "title": "Home DB",
+      "project_name": "Home DB",
+      "description": "Home database to store CD's and books",
+      "date": "2024-06-04",
+      "technologies": ["Python", "Django"]
+    }
+]
