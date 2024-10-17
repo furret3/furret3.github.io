@@ -2,7 +2,6 @@
 layout: page
 ---
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,9 +11,12 @@ layout: page
 <body>
 
     <div class="project-content">
-        <p>{{ page.description }}</p>
+        
         <p><strong>Date:</strong> {{ page.date | date: "%d/%m/%Y" }}</p>
         <p><strong>Technologies:</strong> {{ page.technologies | join: ', ' }}</p>
+    </div>
+    <div>
+        <p>{{ page.description }}</p>
     </div>
 
 </body>
